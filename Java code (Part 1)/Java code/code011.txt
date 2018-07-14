@@ -1,0 +1,19 @@
+package staticAndNonStaticMethodCall;
+
+public class DemoStaticAndInstanceMethods {
+
+	public static void main(String[] args) { //class method
+
+		/*DemoStaticAndInstanceMethods obj
+			= new DemoStaticAndInstanceMethods();
+		obj.displayMessage();*/
+
+		new DemoStaticAndInstanceMethods().displayMessage();
+
+	}
+
+	public void displayMessage() { //instance method
+		System.out.println("Message from a non-static method");
+	}
+
+}
