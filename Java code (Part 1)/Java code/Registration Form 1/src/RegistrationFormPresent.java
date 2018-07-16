@@ -3,7 +3,7 @@ public class RegistrationFormPresent {
 
 	public static void main(String[] args) {
 		/****************************************************************************
-		 * Class Name: newRegistrationForm 
+		 * Class Name: RegistrationForm 
 		 * Description: This class displays the registration form of Nathan Remante
 		 * Known Bugs: None
 		 * Date: 01 June 2015
@@ -11,7 +11,8 @@ public class RegistrationFormPresent {
 		 * @author istudent
 		 * 
 		 ***************************************************************************/
-		public class newRegistrationForm {
+		
+		class RegistrationForm {
 
 			/***********************************************************************
 			 * Function Name: main
@@ -31,7 +32,7 @@ public class RegistrationFormPresent {
 			 * @param args (String[])
 			 **********************************************************************/
 
-			public static void main(String[] args) {
+			public void main() {
 				System.out.print("\t\t\t\t  Informaion and Communications Technology Academy \n");
 				System.out.print("\t\t\t\t324 Sen. Gil Puyat Avenue, Makati City, Philippines\n\n");
 				System.out.print("\t\t\t\t\tASSESSMENT/REGISTRATION FORM\n");
@@ -90,6 +91,9 @@ public class RegistrationFormPresent {
 			}
 
 		}
+		RegistrationForm form = new RegistrationForm();
+		form.main();
+		
 
 
 	}

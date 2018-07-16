@@ -8,7 +8,7 @@ public class demoDataType {
 		int numberInt = 1500;
 		long numberLong = 500;
 		
-		System.out.println("Byte Value: " + numberByte + "\n"
+		System.out.println("Byte Value: " + numberbyte + "\n"
 			+ "Short Value: " + numberShort + "\n"
 			+ "Int Value: " + numberInt + "\n"
 			+ "Long Value: " + numberLong);

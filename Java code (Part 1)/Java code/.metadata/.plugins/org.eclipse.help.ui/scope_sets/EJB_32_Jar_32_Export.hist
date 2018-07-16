@@ -1,0 +1,6 @@
+#Sun Jul 15 10:48:45 SGT 2018
+__DEFAULT__=false
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.sdk.Google.master=true
+org.eclipse.help.ui.localSearch.master=true
+expression=EJB Jar Export
